@@ -1,0 +1,201 @@
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+    --main-color: #212121;
+    --description-color: #757575;
+    --accent-color: #2196F3;
+    --dark-background-color: #2F303A;
+    --light-background-color: #F5F4FA;
+    --darkbackground-text-color: #FFF;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-style: normal; 
+    color: var(--main-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+.active {
+    color: var(--accent-color);
+}
+
+.invisible {
+    display: none;
+}
+
+/* === Header ==== */
+
+.logo {
+    font-family: var(--logo-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.header-logo {
+    color: var(--main-color);
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em; 
+    color: var(--main-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+/* === Hero === */
+.hero {
+    background-color: var(--dark-background-color);
+}
+
+.hero-title {
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--darkbackground-text-color);
+}
+
+.order-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--darkbackground-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* === Benefits === */
+
+.sections-name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.benefits-name { 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-color);
+    }
+
+.benefits-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* === Team === */
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+.team-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
+
+/* === Footer === */
+
+.footer {
+    background-color: var(--dark-background-color);
+}
+
+.footer-logo {
+    color: var(--darkbackground-text-color);
+}
+
+.contact-link { 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--darkbackground-text-color);
+}
+
+.contact-opacity {
+    opacity: 0.6
+}
+
+/* ======= PAGE PORTFOLIO ======= */
+
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: var(--light-background-color);
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--darkbackground-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.examples-name {  
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.examples-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--description-color);
+}
