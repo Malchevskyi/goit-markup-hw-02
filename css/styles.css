@@ -6,13 +6,16 @@
     --accent-color: #2196F3;
     --dark-background-color: #2F303A;
     --light-background-color: #F5F4FA;
-    --darkbackground-text-color: #FFF;
+    --page-background: #FFF;
 }
 
 body {
-    font-family: var(--main-font-family);
-    font-style: normal; 
+    font-family: var(--main-font-family); 
+    font-size: 14px;
+    font-weight: 400;
     color: var(--main-color);
+    background-color: var(--page-background);
+
 }
 
 .link {
@@ -52,8 +55,17 @@ body {
     color: var(--main-color);
 }
 
+.mail-phone-link {
+    font-weight: 500;
+    line-height: 1.143;
+    letter-spacing: 0.02em; 
+    color: var(--description-color);
+}
+
 .header-link:hover,
-.header-link:focus {
+.header-link:focus,
+.mail-phone-link:hover,
+.mail-phone-link:focus {
     color: var(--accent-color);
 }
 
@@ -63,14 +75,13 @@ body {
 }
 
 .hero-title {
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--darkbackground-text-color);
+    color: var(--page-background);
 }
 
 .order-btn {
@@ -81,7 +92,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    color: var(--darkbackground-text-color);
+    color: var(--page-background);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -109,8 +120,6 @@ body {
     }
 
 .benefits-description {
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
     color: var(--description-color);
@@ -126,7 +135,6 @@ body {
     color: var(--main-color);
 }
 .team-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
@@ -141,16 +149,14 @@ body {
 }
 
 .footer-logo {
-    color: var(--darkbackground-text-color);
+    color: var(--page-background);
 }
 
 .contact-link { 
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--darkbackground-text-color);
+    color: var(--page-background);
 }
 
 .contact-opacity {
@@ -179,7 +185,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--darkbackground-text-color);
+    color: var(--page-background);
     background: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
@@ -193,7 +199,6 @@ body {
 }
 
 .examples-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
